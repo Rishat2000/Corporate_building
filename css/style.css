@@ -647,11 +647,9 @@ textarea.input {
 
 .footer__button {
   word-break: break-all;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: inline-block;
   text-align: center;
-  width: 16.375rem;
+  max-width: 16.375rem;
   padding: 0.9375rem 3.4375rem;
   background: -webkit-gradient(linear, left top, right top, from(#f6bd60), to(#e88952));
   background: -o-linear-gradient(left, #f6bd60 0%, #e88952 100%);
